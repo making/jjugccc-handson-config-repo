@@ -1,2 +1,2 @@
 title: Hello World!
-today: #{T(java.time.LocalDateTime).now().toString()}
+"today: #{T(java.time.LocalDateTime).now().toString()}"
