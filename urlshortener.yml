@@ -1,1 +1,12 @@
-urlshorten.url: http://example.com:8080
+urlshorten:
+  url: http://example.com:8080
+spring:
+  redis:
+    host: localhost # server host
+    password: # server password
+    port: 6379 # connection port
+    pool:
+      max-idle: 8 # pool settings ...
+      min-idle: 0
+      max-active: 8
+      max-wait: -1
