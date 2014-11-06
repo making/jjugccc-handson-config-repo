@@ -1,1 +1,3 @@
 urlshorten.api.url: http://urlshorten
+endpoints.restart:
+  enabled: true
