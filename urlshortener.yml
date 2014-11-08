@@ -1,5 +1,5 @@
 urlshorten:
-  url: http://urlshortener:8081
+  url: http://localhost:9999
 spring:
   redis:
     host: localhost # server host
